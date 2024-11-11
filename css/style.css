@@ -39,7 +39,7 @@ body {
     background-color: #0d1117;
     color: #ffffff;
 }
-.container {
+.Home_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +47,12 @@ body {
     height: 100vh;
     text-align: center;
 }
+.About_container {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .navbar {
     position: absolute;
     top: 20px;
@@ -106,4 +112,87 @@ body {
     font-size: 30px;
     margin: 0 10px;
     text-decoration: none;
+}
+
+h1 {
+    color: #00c174;
+    font-size: 100px;
+    font-weight: bold;
+}
+p {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+.resume-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #00ff99, #0066ff);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.Tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    margin-top: 50px;
+}
+.skills div {
+    text-align: center;
+    margin: 10px;
+}
+.skills img {
+    width: 50px;
+    height: 50px;
+}
+.skills p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+.footer {
+    text-align: left;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #00ff99;
+}
+.footer p {
+    margin: 0;
+}
+h2 {
+    color: #ff66cc;
+    font-size: 50px;
+    align-items: center;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons a {
+    color: #e0e0e0;
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    align-items:self-end;
+}
+.footer .social-icons a:hover {
+    color: #00ff99;
+}
+.section-title {
+    color: #ff66cc;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: right;
 }
