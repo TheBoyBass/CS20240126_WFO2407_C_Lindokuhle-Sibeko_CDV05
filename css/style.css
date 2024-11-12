@@ -208,3 +208,66 @@ h2 {
     font-weight: bold;
     text-align: right;
 }
+
+/* Projects Styling */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Projects_container h1 {
+    color: #00c174;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.project-card {
+    background-color: #161b22;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+.project-card h3 {
+    margin: 15px;
+    font-size: 1.5em;
+}
+.project-card p {
+    margin: 15px;
+    font-size: 1em;
+}
+.project-card .tech-stacks {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.project-card .tech-stacks i {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.project-card .preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0d1117;
+    color: #00ff9d;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-top: 1px solid #00ff9d;
+}
+.project-card .preview:hover {
+    background-color: #00ff9d;
+    color: #0d1117;
+}
